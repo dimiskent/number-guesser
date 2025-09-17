@@ -12,6 +12,7 @@ public class Main {
                 if(myNumber > 100 || myNumber < 1) {
                     System.out.println("It must be between 1 and 100!");
                 } else if(myNumber == randomNumber) {
+                    scanner.close();
                     break;
                 } else if (myNumber < randomNumber) {
                     System.out.println("Too low!");
